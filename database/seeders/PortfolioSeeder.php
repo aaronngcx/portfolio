@@ -540,21 +540,21 @@ class PortfolioSeeder extends Seeder
                 $data = [
                     'title' => 'Web Development',
                     'icon' => 'fas fa-code',
-                    'details' => $faker->text()
+                    'details' => "My web development services create custom websites using the latest technologies and best practices. I handle front-end, back-end, database integration, CMS, e-commerce, and responsive design. With a focus on aesthetics, usability, and performance, I deliver high-quality websites to enhance your online presence and meet your goals."
                 ];
                 $service->store($data);
 
                 $data = [
-                    'title' => 'UI/UX Design',
+                    'title' => 'Mobile App Development',
                     'icon' => 'fas fa-basketball-ball',
-                    'details' => $faker->text()
+                    'details' => "My mobile app development services provide innovative applications for iOS and Android. I work closely with you to understand your needs and target audience. From conceptualization to deployment, I create intuitive, feature-rich apps using cutting-edge tools. Stay ahead in the competitive app market with visually appealing and user-friendly mobile applications."
                 ];
                 $service->store($data);
 
                 $data = [
-                    'title' => 'Security',
+                    'title' => 'Tech Consulting',
                     'icon' => 'fas fa-shield-alt',
-                    'details' => $faker->text()
+                    'details' => "My technical consulting services provide specialized expertise and advice to assist you with your technical challenges and initiatives. Drawing upon my deep understanding of industry trends and technologies, I offer guidance on various technical areas such as software development, system architecture, infrastructure design, cybersecurity, cloud computing, and data management."
                 ];
                 $service->store($data);
             } catch (\Throwable $th) {
