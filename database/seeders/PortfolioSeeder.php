@@ -285,8 +285,8 @@ class PortfolioSeeder extends Seeder
                 }
                 
                 $data = [
-                    'name' => 'John Doe',
-                    'email' => 'johndoe@example.com',
+                    'name' => 'Aaron Ng',
+                    'email' => 'aaronngcx@gmail.com',
                     'avatar' => 'assets/common/img/avatar/default.png',
                     'cover' => 'assets/common/img/cover/default.png',
                     'phone' => '12025550191',
@@ -297,23 +297,23 @@ class PortfolioSeeder extends Seeder
                         [
                             'title' => 'LinkedIn',
                             'iconClass' => 'fab fa-linkedin-in',
-                            'link' => 'https://www.linkedin.com'
+                            'link' => 'https://www.linkedin.com/in/aaron-ng-b9236a145/'
                         ],
                         [
                             'title' => 'Github',
                             'iconClass' => 'fab fa-github',
-                            'link' => 'https://github.com'
+                            'link' => 'https://github.com/aaronngcx'
                         ],
-                        [
-                            'title' => 'Twitter',
-                            'iconClass' => 'fab fa-twitter',
-                            'link' => 'https://twitter.com'
-                        ],
-                        [
-                            'title' => 'Mail',
-                            'iconClass' => 'far fa-envelope',
-                            'link' => 'mailto:johndoe@example.com'
-                        ],
+                        // [
+                        //     'title' => 'Twitter',
+                        //     'iconClass' => 'fab fa-twitter',
+                        //     'link' => 'https://twitter.com'
+                        // ],
+                        // [
+                        //     'title' => 'Mail',
+                        //     'iconClass' => 'far fa-envelope',
+                        //     'link' => 'mailto:johndoe@example.com'
+                        // ],
                     ],
                     'seederCV' => 'assets/common/cv/default.pdf',
                 ];
