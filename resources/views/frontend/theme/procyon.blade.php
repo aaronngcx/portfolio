@@ -403,10 +403,10 @@
                 <div class="col-md-6 d-flex">
                     <div class="align-self-stretch box text-center p-4">
                         <div class="card-body">
-                            @if ($about->address)
+                            {{-- @if ($about->address)
                                 <p class="mb-0"><strong>Address</strong></p>
                                 <p class="pb-2 text-muted">{{$about->address }}</p>
-                            @endif
+                            @endif --}}
                             @if ($about->email)
                                 <p class="mb-0"><strong>Email</strong></p>
                                 <p class="pb-2 text-muted">{{$about->email }}</p>
