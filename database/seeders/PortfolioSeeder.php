@@ -290,7 +290,7 @@ class PortfolioSeeder extends Seeder
                     'avatar' => 'assets/common/img/avatar/default.png',
                     'cover' => 'assets/common/img/cover/default.png',
                     'phone' => '+60187942155',
-                    'address' => '1609 Nuzum Court, Cheektowaga, NY 14225',
+                    'address' => 'Kuala Lumpur, Malaysia',
                     'description' => 'With a strong background in the information technology and services industry, I am an experienced software developer dedicated to delivering top-notch solutions that drive business growth and client success.',
                     'taglines' => ["I am Software Engineer", "I am Web Developer", "I am Full Stack Engineer"],
                     'social_links' => [
