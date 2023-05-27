@@ -1,0 +1,17 @@
+name: Pull Code on Commit
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  pull-code:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      
+      - name: Pull code
+        run: git pull origin main
