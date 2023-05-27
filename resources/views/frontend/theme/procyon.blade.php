@@ -228,8 +228,8 @@
                                         <span class="date">{{$value->period}}</span>
                                         <h2>{{$value->degree}}</h2>
                                         <span class="position">{{$value->institution}}</span>
-                                        <p class="mb-0">{{$value->cgpa && $value->cgpa !== '' ? 'CGPA: '.$value->cgpa : '' }}</p>
-                                        <p>{{$value->thesis && $value->thesis !== '' ? 'Thesis: '.$value->thesis : '' }}</p>
+                                        {{-- <p class="mb-0">{{$value->cgpa && $value->cgpa !== '' ? 'CGPA: '.$value->cgpa : '' }}</p> --}}
+                                        {{-- <p>{{$value->thesis && $value->thesis !== '' ? 'Thesis: '.$value->thesis : '' }}</p> --}}
                                     </div>
                                 </div>
                             @endforeach
