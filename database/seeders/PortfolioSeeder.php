@@ -409,26 +409,36 @@ class PortfolioSeeder extends Seeder
             //experience table seed
             try {
                 $data = [
-                    'company' => 'ABC LIMITED',
-                    'period' => '2019-Present',
+                    'company' => 'Boss Boleh',
+                    'period' => '2022-Present',
+                    'position' => 'Senior Software Engineer (Team Lead)',
+                    'details' => 'Responsible for effectively leading a team of five individuals to efficiently deliver results in the field of Software-as-a-Service (SaaS).'
+                ];
+                $experience->store($data);
+
+                $data = [
+                    'company' => 'Accenture',
+                    'period' => '2022',
                     'position' => 'Senior Software Engineer',
-                    'details' => $faker->text()
+                    'details' => 'Spearheaded the successful development of 3 product offerings, generating significant revenue and increasing
+                    market share for a leading telecommunications company'
                 ];
                 $experience->store($data);
 
                 $data = [
-                    'company' => 'ABC LIMITED',
-                    'period' => '2017-2019',
+                    'company' => 'Strateq Group',
+                    'period' => '2020-2022',
                     'position' => 'Software Engineer',
-                    'details' => $faker->text()
+                    'details' => 'Spearheaded the research and development of an IoT integration project for a petrol retail solution that
+                    operated in 7 countries leveraging technologies such as MQTT and AWS IoT Core'
                 ];
-                $experience->store($data);
 
                 $data = [
-                    'company' => 'XYZ LIMITED',
-                    'period' => '2015-2017',
-                    'position' => 'Junior Software Engineer',
-                    'details' => $faker->text()
+                    'company' => 'Etctech',
+                    'period' => '2019-2020',
+                    'position' => 'Software Engineer',
+                    'details' => "Led multiple web application development life cycles, right from the design stage to delivery and post-launch
+                    support, ensuring that the projects were completed on time, within budget, and to the client's satisfaction"
                 ];
                 $experience->store($data);
             } catch (\Throwable $th) {
