@@ -315,7 +315,7 @@ class PortfolioSeeder extends Seeder
                         //     'link' => 'mailto:johndoe@example.com'
                         // ],
                     ],
-                    'seederCV' => 'assets/common/cv/default.pdf',
+                    'seederCV' => 'assets/common/cv/AaronNgSoftwareEngineer.pdf',
                 ];
                 $about->store($data);
 
