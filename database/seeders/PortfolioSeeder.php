@@ -432,6 +432,7 @@ class PortfolioSeeder extends Seeder
                     'details' => 'Spearheaded the research and development of an IoT integration project for a petrol retail solution that
                     operated in 7 countries leveraging technologies such as MQTT and AWS IoT Core'
                 ];
+                $experience->store($data);
 
                 $data = [
                     'company' => 'Etctech',
