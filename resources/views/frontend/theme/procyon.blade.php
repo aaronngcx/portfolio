@@ -154,9 +154,9 @@
                                 @if ($about->phone && $about->phone !== '')
                                 <li class="d-flex"><span>Phone:</span> <span>{{$about->phone}}</span></li>
                                 @endif
-                                @if ($about->address && $about->address !== '')
+                                {{-- @if ($about->address && $about->address !== '')
                                 <li class="d-flex"><span>Address:</span> <span>{{$about->address}}</span></li>
-                                @endif
+                                @endif --}}
                             </ul>
                         </div>
                     </div>
