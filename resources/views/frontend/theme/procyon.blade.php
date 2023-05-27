@@ -353,7 +353,7 @@
     @endif
 
     @if ($portfolioConfig['visibility']['projects'])
-    {{-- <section class="ftco-section ftco-project" id="projects-section">
+    <section class="ftco-section ftco-project" id="projects-section">
         <div class="container-fluid px-md-0">
             <div class="row no-gutters justify-content-center pb-5">
                 <div class="col-md-12 heading-section text-center">
@@ -367,7 +367,7 @@
             />
             <div class="mb-5"></div>
         </div>
-    </section> --}}
+    </section>
     @endif
 
     @if ($portfolioConfig['visibility']['contact'])
