@@ -100,9 +100,9 @@
                 @if ($portfolioConfig['visibility']['skills'])
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                 @endif
-                @if ($portfolioConfig['visibility']['projects'])
+                {{-- @if ($portfolioConfig['visibility']['projects'])
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                @endif
+                @endif --}}
                 @if ($portfolioConfig['visibility']['services'])
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
                 @endif
