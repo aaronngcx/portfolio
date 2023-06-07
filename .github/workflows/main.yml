@@ -1,0 +1,17 @@
+name: Git Pull on Main Branch Merge
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  git_pull:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Git Pull
+        run: git pull
