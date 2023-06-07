@@ -1,0 +1,21 @@
+name: SSH and Git Pull
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Install SSH client
+        run: sudo apt-get install -y openssh-client
+
+      - name: SSH into server and run git pull
+        run: |
+          ssh ploi@206.189.32.17 "cd aaronngcx.com/ && git pull"
